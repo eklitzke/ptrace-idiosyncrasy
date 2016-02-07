@@ -1,0 +1,4 @@
+*.o
+create_zombie
+kill
+ptrace_attach
