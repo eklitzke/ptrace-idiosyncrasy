@@ -45,3 +45,6 @@ PTRACE_ATTACH: Operation not permitted
 
 As you can see, the seemingly similar `kill(2)` and `ptrace(2)` system calls do
 not behave the same for processes in the exited state.
+
+I have more details about this issue
+[on my blog](https://eklitzke.org/a-ptrace-idiosyncrasy).
